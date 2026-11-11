@@ -1,0 +1,460 @@
+/*Adjust scroll position for all sections*/
+section {
+  scroll-margin-top: 90px;
+}
+
+/*Navbar CSS*/
+#navbar {
+  background-color: #1b4332;
+}
+
+#navbar a {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #d1fae5;
+}
+
+.navbar-brand {
+  font-family: "Space Grotesk", sans-serif !important;
+}
+
+#nav-logo {
+  background-color: white;
+  padding: 2%;
+  border-radius: 8%;
+
+  color: #1b4332 !important;
+  font-family: "Space Grotesk", sans-serif !important;
+  font-weight: bold;
+}
+
+/*Nav bar CSS end*/
+
+/*landing section css START*/
+#landing {
+  background-color: #cae8ce;
+}
+
+#landing .available {
+  display: flex;
+  padding: 4px 12px;
+  align-items: center;
+  gap: 8px;
+
+  border-radius: 4px;
+  background: #badcbd;
+}
+
+#landing .available p {
+  color: #1b4332;
+  font-family: "Plus Jakarta Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 133.333% */
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+
+  color: rgba(27, 67, 50, 1);
+
+  margin: 0;
+}
+
+#landing .available span {
+  width: 8px;
+  height: 8px;
+
+  border-radius: 9999px;
+  background: #2d6a4f;
+}
+
+#landing h1 {
+  color: #143224;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40.32px; /* 112% */
+  letter-spacing: -0.9px;
+}
+/*Responsive Hero Title*/
+/* Base font size for mobile */
+.hero-name {
+  font-size: 32px; /* or 2.25rem */
+}
+
+/* Medium screens and up (md) */
+@media (min-width: 768px) {
+  .hero-name {
+    font-size: 48px; /* or 3rem */
+    line-height: 48px !important; /* 112% */
+  }
+}
+
+/* Large screens and up (lg) */
+@media (min-width: 992px) {
+  .hero-name {
+    font-size: 60px; /* or 3.75rem */
+    line-height: 48px !important; /* 112% */
+  }
+}
+/*END*/
+
+#landing h2 {
+  color: #2d6a4f;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 140% */
+}
+
+#landing p {
+  color: #334155;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+
+#btn-landing {
+  border-radius: 8px;
+  background-color: #143224;
+  width: 190.61px;
+  height: 48px;
+  box-shadow:
+    0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -2px rgba(0, 0, 0, 0.1);
+
+  color: #fff;
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 0.35px;
+  text-transform: uppercase;
+}
+
+#floating-div-img div {
+  background-color: #d1f4e0;
+  width: 28px;
+  height: 28px;
+}
+
+#floating-div-img span {
+  color: #64748b;
+  font-family: "Plus Jakarta Sans";
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16.5px; /* 150% */
+}
+
+#floating-div-img div span {
+  fill: #1b4332;
+  font-size: 0.9em;
+}
+
+#landing .card-landing {
+  border-radius: 8px;
+  border: 1px solid rgba(6, 78, 59, 0.1);
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(2px);
+}
+
+#landing .card-landing p {
+  color: #1b4332;
+  text-align: center;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 133.333% */
+  margin: 0;
+}
+
+/*Landing CSS END*/
+
+/*Project CSS --START--*/
+
+#projects div div h1 {
+  color: #183d2e;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+
+  border-radius: 4px;
+  background: #badcbd;
+}
+
+#projects p {
+  color: #475569;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+/*Card CSS START*/
+.card-title {
+  color: #0f172a;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 140% */
+}
+
+#projects .card-text {
+  color: #475569;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.75px; /* 162.5% */
+}
+
+#projects .card a {
+  color: #1b4332;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 142.857% */
+}
+
+/*Card CSS END*/
+
+/*Project CSS --END--*/
+
+/*Tools CSS --START--*/
+#tools {
+  background-color: #f8fafc;
+}
+
+#tools div div h1 {
+  color: #183d2e;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+
+  border-radius: 4px;
+  background: #badcbd;
+}
+
+#tools div div h2 {
+  color: #143224;
+  text-align: center;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 120% */
+  letter-spacing: -0.75px;
+}
+
+#tools div div p {
+  color: #475569;
+  text-align: center;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 22.75px; /* 162.5% */
+}
+
+/*Tools Card --START--*/
+#tools .container {
+  display: flex;
+  width: 48px;
+  height: 48px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+#tools .card-tool {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  grid-row: 1 / span 1;
+  grid-column: 1 / span 1;
+  justify-self: stretch;
+
+  height: 100%;
+
+  border-radius: 12px;
+  border: 1px solid rgba(226, 232, 240, 0.9);
+  background: #fff;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+#tools h4 {
+  color: #1e293b;
+  text-align: center;
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: -0.35px;
+}
+
+#tools p {
+  color: #64748b;
+  text-align: center;
+  font-family: "Plus Jakarta Sans";
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16.5px; /* 150% */
+}
+
+#tools span {
+  font-size: 2.5em;
+}
+/*Tools Card END*/
+
+/*Tools CSS --END--*/
+
+/*Contact CSS --START--*/
+#contact {
+  background-color: #cae8ce;
+}
+
+#contact div div h1 {
+  color: #183d2e;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+
+  border-radius: 4px;
+  background: #badcbd;
+}
+
+#contact div div p {
+  color: #475569;
+  text-align: center;
+  font-family: "Plus Jakarta Sans";
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.75px; /* 162.5% */
+}
+
+#contact .text-start {
+  border-radius: 16px;
+  background: #dcdfdc;
+  box-shadow:
+    0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -4px rgba(0, 0, 0, 0.1);
+}
+
+#contact .text-start label {
+  color: #1e293b;
+  font-family: "Plus Jakarta Sans";
+  font-size: 0.85em;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 133.333% */
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+}
+
+#contact .text-start input,
+#contact .text-start textarea {
+  padding: 1em;
+
+  color: white !important;
+  font-family: "Plus Jakarta Sans";
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  border-radius: 6px;
+  background: #4a4a4a;
+}
+
+#contact input::placeholder,
+#contact textarea::placeholder {
+  color: #8f8a8a;
+}
+
+#contact-btn {
+  border-radius: 4px;
+  background: #a8aba9;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+
+  color: #0f172a;
+  text-align: center;
+  font-family: "Plus Jakarta Sans";
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 133.333% */
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+}
+
+#contact .text-start span {
+  color: #0f172a;
+  font-family: "Plus Jakarta Sans";
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+/*Contact CSS --END--*/
+
+/*Footer CSS --START--*/
+footer {
+  border-top: 1px solid #022c22;
+  background: #24583e;
+}
+
+footer p {
+  color: #d1fae5;
+  font-family: "Plus Jakarta Sans";
+  font-size: 0.9em;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 133.333% */
+}
+
+footer span {
+  color: #a7f3d0 !important;
+  font-size: 1em;
+}
+
+footer span a {
+  color: #a7f3d0 !important;
+  font-size: 1em;
+}
+
+footer a[href="#landing"] {
+  color: #a7f3d0;
+  font-family: "Plus Jakarta Sans";
+  font-size: 0.9em;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px; /* 133.333% */
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+}
+
+footer .overlay-footer {
+  width: 96px;
+  height: 8px;
+
+  border-radius: 9999px;
+  background: rgba(110, 231, 183, 0.4);
+}
+
+/*Footer CSS --END--*/
